@@ -1,0 +1,18 @@
+body {
+  font-family: "Helvetica";
+  background-color: #f2e6d9;
+  height:100vh; 
+  margin:0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.text-hem {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
