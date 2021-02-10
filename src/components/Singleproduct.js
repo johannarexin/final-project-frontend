@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react'
 
+import '../styling/Singleproduct.css'
+
 export const Singleproduct = ({match}) => {
   const fetchCeramic = async () => {
     const fetchCeramic = await fetch (`https://final-project-backend-rexin.herokuapp.com/ceramics/${match.params.id}`)
@@ -14,9 +16,9 @@ export const Singleproduct = ({match}) => {
   const [ceramic, setCeramic] = useState({})
 
   return (
-    <div>
-      <h1>{ceramic.header}</h1>
-      <p>{ceramic.text}</p>
+    <div className="single-product-container">
+      <h1 className="single-product-header">{ceramic.header}</h1>
+      <p className="single-product-text">{ceramic.text}</p>
       <img src={ceramic.image} alt="" />
 
     </div>

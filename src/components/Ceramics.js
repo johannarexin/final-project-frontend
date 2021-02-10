@@ -24,8 +24,8 @@ export const Ceramics = () => {
       <h1 className="ceramics-header">KERAMIK</h1>
       {ceramics.map(item => (
         <h2 key={item._id}>
-          <Link className="ceramics-container" to={`/ceramics/${item._id}`}>{item.header}</Link>
           <img src={item.image} alt="" />
+          <Link className="ceramics-container" to={`/ceramics/${item._id}`}>{item.header}</Link>
         </h2>
       ))}
     </div>
