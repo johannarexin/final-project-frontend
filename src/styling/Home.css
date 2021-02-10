@@ -1,32 +1,19 @@
-html {
-  position:relative; 
-  min-height: 100%;
-}
-
-body {
-  font-family: "Helvetica";
-  background-color: #f8f2ec;
-  height:100vh; 
-  margin:0;
-}
-
-.background-image {
-  background-image: url("../images/Background_image.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+.hero-image {
+  background-image: url("../images/Background_image_2.jpg");
+  background-color: #cccccc;
   height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  color: black;
-  font-size: 72px;
-}
-
-.text-home {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  font-size: 100px;
 }

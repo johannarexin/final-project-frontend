@@ -1,0 +1,11 @@
+.ceramics-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 28px;
+}
+

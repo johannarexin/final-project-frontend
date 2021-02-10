@@ -1,17 +1,27 @@
-/* .about-me-container {
-  display: flex;
-  justify-content: center;
-} */
-
 h1 {
+}
+
+.about-me-container {
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.about-me-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  font-size: 72px;
 }
 
 .about-me-text {
-  display: flex;
-  justify-content: center;
+  width: 500px;
+}
+
+img {
   width: 400px;
+  height: 400px;
 }
 
 .email {
