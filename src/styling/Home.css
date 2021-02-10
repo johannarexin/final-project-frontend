@@ -1,17 +1,31 @@
+html {
+  position:relative; 
+  min-height: 100%;
+}
+
 body {
   font-family: "Helvetica";
-  background-color: #f2e6d9;
+  background-color: #f8f2ec;
   height:100vh; 
   margin:0;
+}
+
+.background-image {
+  background-image: url("../images/Background_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
 }
 
 h1 {
   display: flex;
   justify-content: center;
   color: black;
+  font-size: 72px;
 }
 
-.text-hem {
+.text-home {
   display: flex;
   justify-content: center;
   width: 100%;

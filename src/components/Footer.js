@@ -6,8 +6,7 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-links">
-        <a href="tel:+46708238625">070-823 86 25</a>
-        <a className="mail" href="mailto:johanna.rexin@gmail.com">johanna.rexin@gmail.com</a>
+        <p>Ser du något du gillar? Kontakta mig på <span className="email"><a href="mailto:johanna.rexin@gmail.com">johanna.rexin@gmail.com</a></span></p>
       </div>
     </div>
   )

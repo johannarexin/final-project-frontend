@@ -8,14 +8,14 @@ export const Nav = () => {
   return (
     <nav>
       <a href="/">
-        <h3>Hem</h3>
+        <h3>HEM</h3>
       </a>
       <ul className="nav-links">
           <Link to="/ceramics">
-            <li>Keramik</li>
+            <li>KERAMIK</li>
           </Link>
           <Link to="/about">
-            <li>Om mig</li>
+            <li>OM MIG</li>
           </Link>
           </ul>
     </nav>

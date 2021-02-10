@@ -1,15 +1,13 @@
 import React from 'react'
 
 import '../styling/Home.css'
+import Background from "../images/Background_image.jpg"
 
 export const Home = () => {
   return (
     <div>
-        <h1>Johanna Rexins keramik</h1>
-        <p className="text-hem">
-          Johanna heter jag, jag har nyligen blivit förälskad i att 
-          dreja och skapa med lera. Här kan du se mina alster.
-        </p>
+      <h1>REXIN KERAMIK</h1>
+      <div className="background-image"></div>
     </div>
   )
 }

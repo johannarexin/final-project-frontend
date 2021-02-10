@@ -1,0 +1,19 @@
+/* .about-me-container {
+  display: flex;
+  justify-content: center;
+} */
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-text {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+
+.email {
+  font-weight: bold;
+}

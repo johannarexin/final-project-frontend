@@ -22,7 +22,7 @@ export const App = () => {
           <Route path="/ceramics" exact component={Ceramics} />
           <Route path="/ceramics/:id" component={Singleproduct} />
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   )
