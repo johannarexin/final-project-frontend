@@ -1,6 +1,3 @@
-h1 {
-}
-
 .about-me-container {
   display: flex;
   align-items: center;
@@ -9,9 +6,6 @@ h1 {
 }
 
 .about-me-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;  
   font-size: 72px;
 }
 
