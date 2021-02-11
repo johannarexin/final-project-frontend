@@ -9,8 +9,13 @@
   font-size: 72px;
 }
 
+.about-me-sub-header {
+  font-size: 32px;
+}
+
 .about-me-text {
   width: 450px;
+  margin-top: -10px;
 }
 
 img {
