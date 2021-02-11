@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .ceramics-header {  
@@ -11,4 +12,9 @@
 
 h2 {
   font-size: 28px;
+}
+
+.ceramics-image {
+  height: 400px;
+  width: 400px;
 }
