@@ -1,12 +1,16 @@
 .footer {
   display: flex;
   justify-content: center;
-  bottom: 15px;
+  bottom: 0px;
   width: 100%;
   background-color: #ecd9c6;
-  height: 30px;
+  height: 60px;
   padding: 7px;
   position: absolute;
+
+
+
+  display: inline-block;
 }
 
 .footer-links {

@@ -4,10 +4,23 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-bottom: 120px;
+}
+
+.ceramics-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
 .ceramics-header {  
   font-size: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
@@ -17,4 +30,5 @@ h2 {
 .ceramics-image {
   height: 400px;
   width: 400px;
+  padding: 5px;
 }
