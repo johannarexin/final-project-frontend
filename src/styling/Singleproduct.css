@@ -4,24 +4,13 @@
   justify-content: center;
 }
 
-.single-product-text-container {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row; */
-}
-
 .single-product-header {
   font-size: 28px;
 }
 
-.single-product-text {
-  font-size: 
-}
-
 .single-product-image {
-display: flex;
-margin: 20px;
-height: 600px;
-width: 600px;
+  display: flex;
+  margin: 20px;
+  height: 600px;
+  width: 600px;
 }
