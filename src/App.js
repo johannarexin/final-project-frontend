@@ -10,7 +10,6 @@ import { Singleproduct } from './components/Singleproduct.js'
 
 import './styling/App.css'
 
-
 export const App = () => {
   return (
     <Router>
