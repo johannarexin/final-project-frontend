@@ -22,10 +22,10 @@
 /*** MOBILE ***/
 @media (min-width: 1px) and (max-width: 667px) {
 
-.hero-image {
+/* .hero-image {
   height: 750px;
   width: 375px;
-}
+} */
 
 .hero-text {
   font-size: 60px;
