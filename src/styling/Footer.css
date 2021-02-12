@@ -21,3 +21,23 @@
 .email {
   font-weight: bold;
 }
+
+/*** MOBILE ***/
+@media (min-width: 1px) and (max-width: 667px) {
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+}
+
+
+/*** TABLET ***/
+@media (min-width: 668px) and (max-width: 1024px) {
+
+
+
+}

@@ -32,3 +32,20 @@ h2 {
   width: 400px;
   padding: 5px;
 }
+
+/*** MOBILE ***/
+@media (min-width: 1px) and (max-width: 667px) {
+
+.ceramics-image{
+  width: 300px;
+  height: 300px;
+}
+
+}
+
+
+/*** TABLET ***/
+@media (min-width: 668px) and (max-width: 1024px) {
+
+
+}

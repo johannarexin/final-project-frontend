@@ -17,3 +17,28 @@
   color: yellow;
   font-size: 100px;
 }
+
+
+/*** MOBILE ***/
+@media (min-width: 1px) and (max-width: 667px) {
+
+.hero-image {
+  height: 750px;
+  width: 375px;
+}
+
+.hero-text {
+  font-size: 60px;
+}
+
+}
+
+
+/*** TABLET ***/
+@media (min-width: 668px) and (max-width: 1024px) {
+
+.hero-text {
+  font-size: 100px;
+}
+
+}
