@@ -10,7 +10,9 @@ export const About = () => {
       <h2 className="about-me-sub-header">Hej, Johanna heter jag!</h2>
       <p className="about-me-text">Mitt intresse för keramik väcktes 
         när jag gick en kurs hos en keramiker som hade sin lilla studio tvärs över gatan från 
-        där vi bodde förut. Det var kärlek vid första ögonkastet!</p>
+        där vi bodde förut. Det var kärlek vid första ögonkastet! För mig blev drejningen stunder 
+        av total avkoppling där jag fick låta min kreativitet ta plats. 
+        Min dröm är att bygga en liten drejverkstad i källaren här hemma.</p>
     </div>
   )
 }
