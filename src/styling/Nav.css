@@ -28,3 +28,24 @@ nav {
 li {
   margin: 15px;
 }
+
+/*** MOBILE ***/
+@media (min-width: 1px) and (max-width: 667px) {
+
+nav {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+}
+
+
+/*** TABLET ***/
+@media (min-width: 668px) and (max-width: 1024px) {
+
+  nav {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+}

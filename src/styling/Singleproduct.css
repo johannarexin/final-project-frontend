@@ -20,3 +20,41 @@
   width: 600px;
   position: relative;
 }
+
+/*** MOBILE ***/
+
+@media (min-width: 1px) and (max-width: 667px) {
+
+.single-product-image {
+  display: flex;
+  margin: 20px;
+  height: 350px;
+  width: 350px;
+  position: relative;
+}
+
+.single-product-text {
+  margin-top: -10px;
+  width: 350px;
+}
+
+}
+
+/*** TABLET ***/
+
+@media (min-width: 668px) and (max-width: 1024px) {
+
+  .single-product-image {
+    display: flex;
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    position: relative;
+  }
+  
+  .single-product-text {
+    margin-top: -10px;
+    width: 350px;
+  }
+  
+  }
