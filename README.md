@@ -7,3 +7,5 @@ Built during Technigo Boot Camp fall 2020, project 21 out of 21.
 I started with the routes, then adding the fetch to the backend (I created my own API) and finished with the styling and making the site responsive.
 
 # View it live
+https://johanna-rexin-final-project.netlify.app/
+
